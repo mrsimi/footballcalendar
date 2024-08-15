@@ -46,7 +46,7 @@ def create_fixtures_ics(fixtures):
         alarm.add('description', f'Reminder for {summary}')
         event.add_component(alarm)
         cal.add_component(event)
-        print(f'created a calendar event for {i['match_day']}')
+        #print(f'created a calendar event for {i['match_day']}')
     
     with open(filename, 'wb') as f:
         f.write(cal.to_ical())
