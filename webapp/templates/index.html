@@ -14,11 +14,11 @@
 
             <form  id="uploadForm" action="/" method="post">
                 <div class="dropdown">
-                    <button type="button" class="dropbtn">Select Competitions</button>
-                    <div class="dropdown-content" id="competitionDropdown">
+                    <!-- <button type="button" class="dropbtn">Select Competitions</button> -->
+                    <div id="competitionDropdown">
                         <label><input type="checkbox" name="competition" value="laliga" onchange="updateTeams()"> La Liga</label>
-                        <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label>
-                        <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label>
+                        <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label> <br> <br>
+                        <!-- <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label> -->
                     </div>
                 </div>
                 
@@ -27,7 +27,7 @@
                     <div class="dropdown-content" id="teamDropdown">
                     </div>
                 </div>
-                <input type="submit" value="Download Calendar" class="dropbtn">
+                <input type="submit" value="Download Calendar" class="dropbtn" style="margin-top: 200px;">
             </form>
     </div>
 
