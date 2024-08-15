@@ -1,7 +1,6 @@
 import json
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event, Alarm
-import uuid
 
 
 def get_fixtures(teams, competitions, root_path):
