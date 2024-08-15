@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Calendar</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}"/>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Basic styles for dropdown */
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+        body{
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+        
+        .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+        
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        max-height: 200px; /* Set a fixed height */
+        overflow-y: auto; /* Make it scrollable */
+        }
+        
+        .dropdown-content label {
+        display: block;
+        padding: 8px 16px;
+        }
+        
+        .dropdown-content label:hover {
+        background-color: #f1f1f1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        .overlay{
+            background-color: white;
+            width: 250px;
+            margin: 200px auto;
+            padding: 10px;
+        }
+
+        #uploadForm{
+            display: flex;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="overlay">  
+        <h2>Never miss a football game. Now it's in your calendar</h2> 
+        <p>Select football teams you want to be informed about and download their fixtures to your calendar
+            be reminded 1 hour before the match starts.  <br> <br> PS: Time in UTC+1</p> <br> 
+
+            <form  id="uploadForm" action="/" method="post">
+                <div class="dropdown">
+                    <button type="button" class="dropbtn">Select Competitions</button>
+                    <div class="dropdown-content" id="competitionDropdown">
+                        <label><input type="checkbox" name="competition" value="laliga" onchange="updateTeams()"> La Liga</label>
+                        <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label>
+                        <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button type="button" class="dropbtn">Select Teams</button>
+                    <div class="dropdown-content" id="teamDropdown">
+                    </div>
+                </div>
+                <input type="submit" value="Download Calendar" class="dropbtn">
+            </form>
+    </div>
+    <!-- <p>Never miss a game. Now it's in your calendar</p>
+    <form  id="uploadForm" action="/" method="post">
+        <div class="dropdown">
+            <button type="button" class="dropbtn">Select Competitions</button>
+            <div class="dropdown-content" id="competitionDropdown">
+                <label><input type="checkbox" name="competition" value="laliga" onchange="updateTeams()"> La Liga</label>
+                <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label>
+                <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button type="button" class="dropbtn">Select Teams</button>
+            <div class="dropdown-content" id="teamDropdown">
+            </div>
+        </div>
+        <input type="submit" value="Download Calendar" class="dropbtn">
+    </form> -->
+
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+    <script>
+        const teamsData = {
+            laliga: [
+                'Alav\u00e9s',
+                'Athletic',
+                'Atl\u00e9tico',
+                'Barcelona',
+                'Betis',
+                'Celta',
+                'Espanyol',
+                'Getafe',
+                'Girona',
+                'Las Palmas',
+                'Legan\u00e9s',
+                'Mallorca',
+                'Osasuna',
+                'R. Sociedad',
+                'Rayo',
+                'Real Madrid',
+                'Sevilla',
+                'Valencia',
+                'Valladolid',
+                'Villarreal',
+            ],
+            epl: [
+                'Arsenal',
+                'Aston Villa',
+                'Bournemouth',
+                'Brentford',
+                'Brighton and Hove Albion',
+                'Chelsea',
+                'Crystal Palace',
+                'Everton',
+                'Fulham',
+                'Ipswich Town',
+                'Leicester City',
+                'Liverpool',
+                'M. City',
+                'M. United',
+                'Newcastle United',
+                'Nottingham Forest',
+                'Southampton',
+                'Tottenham H.',
+                'West Ham Utd.',
+                'Wolverhampton Wanderers',
+            ],
+            seriea: ['Juventus', 'Inter Milan', 'AC Milan', 'Napoli', 'Roma'],
+        };
+        
+        function updateTeams() {
+            const selectedCompetitions = Array.from(
+                document.querySelectorAll('#competitionDropdown input:checked')
+            ).map((input) => input.value);
+        
+            const teamDropdown = document.getElementById('teamDropdown');
+            teamDropdown.innerHTML = ''; // Clear existing teams
+        
+            selectedCompetitions.forEach((competition) => {
+                if (teamsData[competition]) {
+                    teamsData[competition].forEach((team) => {
+                        const label = document.createElement('label');
+                        const input = document.createElement('input');
+                        input.type = 'checkbox';
+                        input.value = team.replace(/\s+/g, '');
+                        input.id = team.replace(/\s+/g, '');
+                        input.name = 'team'
+                        label.appendChild(input);
+                        label.appendChild(document.createTextNode(' ' + team));
+                        teamDropdown.appendChild(label);
+                    });
+                }
+            });
+        }
+        
+    </script>
+</body>
+</html>

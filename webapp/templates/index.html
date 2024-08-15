@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Calendar</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}"/>
+</head>
+<body>
+    <div class="overlay">  
+        <h2>Never miss a football game. Now it's in your calendar</h2> 
+        <p>Select football teams you want to be informed about and download their fixtures to your calendar
+            be reminded 1 hour before the match starts.  <br> <br> PS: Time in UTC+1</p> <br> 
+
+            <form  id="uploadForm" action="/" method="post">
+                <div class="dropdown">
+                    <button type="button" class="dropbtn">Select Competitions</button>
+                    <div class="dropdown-content" id="competitionDropdown">
+                        <label><input type="checkbox" name="competition" value="laliga" onchange="updateTeams()"> La Liga</label>
+                        <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label>
+                        <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button type="button" class="dropbtn">Select Teams</button>
+                    <div class="dropdown-content" id="teamDropdown">
+                    </div>
+                </div>
+                <input type="submit" value="Download Calendar" class="dropbtn">
+            </form>
+    </div>
+
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>
