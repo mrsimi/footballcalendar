@@ -5,6 +5,7 @@ from icalendar import Calendar, Event, Alarm
 
 def get_fixtures(teams, competitions, root_path):
     all_fixtures = []
+    print('teams')
     print('get fixtures')
 
     if 'laliga' in competitions:
@@ -26,8 +27,8 @@ def get_fixtures(teams, competitions, root_path):
 
     return wanted_fixtures
 
-def create_fixtures_ics(fixtures):
-    filename = 'fixtures.ics'
+def create_fixtures_ics(fixtures, temp_dir):
+    filename = f'{temp_dir}/fixture.ics'
     cal = Calendar()
     current_month = datetime.now().month
     cal.add('prodid', '-//My calendar product//example.com//')

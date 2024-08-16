@@ -60,8 +60,8 @@ function updateTeams() {
 				const label = document.createElement('label');
 				const input = document.createElement('input');
 				input.type = 'checkbox';
-				input.value = team.replace(/\s+/g, '');
-				input.id = team.replace(/\s+/g, '');
+				input.value = team;
+				input.id = team;
 				input.name = 'team'
 				label.appendChild(input);
 				label.appendChild(document.createTextNode(' ' + team));
