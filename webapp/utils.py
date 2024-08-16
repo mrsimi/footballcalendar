@@ -30,6 +30,8 @@ def create_fixtures_ics(fixtures):
     filename = 'fixtures.ics'
     cal = Calendar()
     current_month = datetime.now().month
+    cal.add('prodid', '-//My calendar product//example.com//')
+    cal.add('version', '2.0')
 
     for i in fixtures:
         fixture_month =int(i['time'].split('/')[1].split(' ')[0])
