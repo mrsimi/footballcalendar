@@ -16,7 +16,7 @@ def uploadForm():
         file_download = create_fixtures_ics(club_fixtures, temp_dir.name)
         print(selected_teams)
         print(selected_competitions)
-        print(club_fixtures)
+        print(len(club_fixtures))
         #file_download = create_ics_file('17/08 16:00', '17/08 17:00', 'Meeting with Team', 'Discuss project progress', 'meeting_event')
         return send_file(file_download, as_attachment=True)
 

@@ -35,7 +35,11 @@ def create_fixtures_ics(fixtures, temp_dir):
     cal.add('version', '2.0')
 
     for i in fixtures:
-        fixture_month =int(i['time'].split('/')[1].split(' ')[0])
+        #print(i['time'])
+        if '/' in i['time']:
+            fixture_month = int(i['time'].split('/')[1].split(' ')[0])
+        else:
+            break
         year = 2024 if fixture_month >= current_month else 2025
         start_date = datetime.strptime(f"{i['time']} {year}", "%d/%m %H:%M %Y")
         summary = f"Match day: {i['match_day']} {i['home']} vs {i['away']}"
