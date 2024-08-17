@@ -42,6 +42,7 @@ def create_fixtures_ics(fixtures, temp_dir):
             break
         year = 2024 if fixture_month >= current_month else 2025
         start_date = datetime.strptime(f"{i['time']} {year}", "%d/%m %H:%M %Y")
+        start_date = start_date - timedelta(hours=1)
         summary = f"Match day: {i['match_day']} {i['home']} vs {i['away']}"
         event = Event()
         event.add('summary', summary)
