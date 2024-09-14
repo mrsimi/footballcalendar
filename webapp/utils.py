@@ -1,9 +1,52 @@
 import json
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event, Alarm
+import requests
+from bs4 import BeautifulSoup
+import json
 
+def download_fixtures_to_json(url, competition):
+    response = requests.get(url)
+    fixtures = []
+    #teams = set()
+
+    if response.status_code == 200:
+        # Parse the HTML content of the page
+        soup = BeautifulSoup(response.content, 'html.parser')
+        matchday_divs = soup.find_all("div", class_="jornada calendarioInternacional")
+
+        index = 1
+        for matchday_div in matchday_divs:
+        
+            matches = matchday_div.find_all("tr")
+            for match in matches:
+                #print(match.text)
+                home = match.find("td", class_="local")
+                time = match.find("td", class_="resultado")
+                away = match.find("td", class_="visitante")
+                if home != None:
+                    #print(time.text)
+                    details = {
+                        'home':home.text.strip(), 
+                        'time': time.text.strip(), 
+                        'away': away.text.strip(),
+                        'match_day': index, 
+                        'competition': competition
+                    }
+                    fixtures.append(details)
+                    #teams.add(home.text.strip())
+                    #teams.add(away.text.strip())
+            
+            index+=1
+
+    print('download complete')
+    return fixtures
 
 def get_fixtures(teams, competitions, root_path):
+    epl_url = 'https://www.marca.com/en/football/premier-league/schedule.html?intcmp=MENUPROD&s_kw=soccer-premier-league-schedule'
+    la_liga_url = 'https://www.marca.com/en/football/spanish-football/liga/schedule.html?intcmp=MENUPROD&s_kw=soccer-laliga-schedule'
+    ucl_url = 'https://www.marca.com/en/football/champions-league/schedule.html?intcmp=MENUPROD&s_kw=soccer-champions-league-schedule'
+
     all_fixtures = []
     print('teams')
     print('get fixtures')
@@ -11,16 +54,19 @@ def get_fixtures(teams, competitions, root_path):
     if 'laliga' in competitions:
         laliga_file = open(f'{root_path}laliga_fixtures.json')
         data = json.load(laliga_file)
+        #data = download_fixtures_to_json(la_liga_url, 'laliga')
         all_fixtures.extend(data)
     
     if 'epl' in competitions:
         epl_file = open(f'{root_path}epl_fixtures.json')
         data = json.load(epl_file)
+        #data = download_fixtures_to_json(epl_url, 'epl')
         all_fixtures.extend(data)
     
     if 'ucl' in competitions:
         epl_file = open(f'{root_path}ucl_fixtures.json')
         data = json.load(epl_file)
+        #data = download_fixtures_to_json(ucl_url, 'ucl')
         all_fixtures.extend(data)
 
     #print(f'all fixtures {len(all_fixtures)}')
