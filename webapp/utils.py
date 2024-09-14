@@ -24,7 +24,7 @@ def download_fixtures_to_json(url, competition):
                 home = match.find("td", class_="local")
                 time = match.find("td", class_="resultado")
                 away = match.find("td", class_="visitante")
-                if home != None:
+                if home != None and '-' not in time.text.strip():
                     #print(time.text)
                     details = {
                         'home':home.text.strip(), 
@@ -73,8 +73,8 @@ def get_fixtures(teams, competitions, root_path):
     
     wanted_fixtures = [d for d in all_fixtures if d['home'] in teams or d['away'] in teams]
     
-    #print('wanted fixtures')
-    #print(wanted_fixtures)
+    print('wanted fixtures')
+    print(wanted_fixtures)
 
     return wanted_fixtures
 
