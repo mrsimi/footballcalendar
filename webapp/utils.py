@@ -17,6 +17,11 @@ def get_fixtures(teams, competitions, root_path):
         epl_file = open(f'{root_path}epl_fixtures.json')
         data = json.load(epl_file)
         all_fixtures.extend(data)
+    
+    if 'ucl' in competitions:
+        epl_file = open(f'{root_path}ucl_fixtures.json')
+        data = json.load(epl_file)
+        all_fixtures.extend(data)
 
     #print(f'all fixtures {len(all_fixtures)}')
     

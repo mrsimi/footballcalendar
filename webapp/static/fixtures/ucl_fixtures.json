@@ -1,0 +1,1010 @@
+[
+	{
+		"home": "Juventus",
+		"time": "17/09 18:45",
+		"away": "PSV",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Young Boys",
+		"time": "17/09 18:45",
+		"away": "Aston Villa",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayern M\u00fanich",
+		"time": "17/09 21:00",
+		"away": "Dinamo Zagreb",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Milan",
+		"time": "17/09 21:00",
+		"away": "Liverpool",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Real Madrid",
+		"time": "17/09 21:00",
+		"away": "VfB Stuttgart",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sp. Portugal",
+		"time": "17/09 21:00",
+		"away": "Lille",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bolonia",
+		"time": "18/09 18:45",
+		"away": "Shakhtar Donetsk",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sparta Praga",
+		"time": "18/09 18:45",
+		"away": "Salzburgo",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Celtic",
+		"time": "18/09 21:00",
+		"away": "SK Slovan Bratislava",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brujas",
+		"time": "18/09 21:00",
+		"away": "Borussia Dortmund",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "M. City",
+		"time": "18/09 21:00",
+		"away": "Inter Mil\u00e1n",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSG",
+		"time": "18/09 21:00",
+		"away": "Girona",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Estrella Roja",
+		"time": "19/09 18:45",
+		"away": "Benfica",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Feyenoord",
+		"time": "19/09 18:45",
+		"away": "Bayer 04 Leverkusen",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atalanta",
+		"time": "19/09 21:00",
+		"away": "Arsenal",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atl\u00e9tico",
+		"time": "19/09 21:00",
+		"away": "Leipzig",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brest",
+		"time": "19/09 21:00",
+		"away": "SK Puntigamer Sturm Graz",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Monaco",
+		"time": "19/09 21:00",
+		"away": "Barcelona",
+		"match_day": 1,
+		"competition": "ucl"
+	},
+	{
+		"home": "Salzburgo",
+		"time": "01/10 18:45",
+		"away": "Brest",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "VfB Stuttgart",
+		"time": "01/10 18:45",
+		"away": "Sparta Praga",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Arsenal",
+		"time": "01/10 21:00",
+		"away": "PSG",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Barcelona",
+		"time": "01/10 21:00",
+		"away": "Young Boys",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayer 04 Leverkusen",
+		"time": "01/10 21:00",
+		"away": "Milan",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Borussia Dortmund",
+		"time": "01/10 21:00",
+		"away": "Celtic",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Inter Mil\u00e1n",
+		"time": "01/10 21:00",
+		"away": "Estrella Roja",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSV",
+		"time": "01/10 21:00",
+		"away": "Sp. Portugal",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Slovan Bratislava",
+		"time": "01/10 21:00",
+		"away": "M. City",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Girona",
+		"time": "02/10 18:45",
+		"away": "Feyenoord",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Shakhtar Donetsk",
+		"time": "02/10 18:45",
+		"away": "Atalanta",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Aston Villa",
+		"time": "02/10 21:00",
+		"away": "Bayern M\u00fanich",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Benfica",
+		"time": "02/10 21:00",
+		"away": "Atl\u00e9tico",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Dinamo Zagreb",
+		"time": "02/10 21:00",
+		"away": "Monaco",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Lille",
+		"time": "02/10 21:00",
+		"away": "Real Madrid",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "02/10 21:00",
+		"away": "Bolonia",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Leipzig",
+		"time": "02/10 21:00",
+		"away": "Juventus",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Puntigamer Sturm Graz",
+		"time": "02/10 21:00",
+		"away": "Brujas",
+		"match_day": 2,
+		"competition": "ucl"
+	},
+	{
+		"home": "Milan",
+		"time": "22/10 18:45",
+		"away": "Brujas",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Monaco",
+		"time": "22/10 18:45",
+		"away": "Estrella Roja",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Arsenal",
+		"time": "22/10 21:00",
+		"away": "Shakhtar Donetsk",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Aston Villa",
+		"time": "22/10 21:00",
+		"away": "Bolonia",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Girona",
+		"time": "22/10 21:00",
+		"away": "SK Slovan Bratislava",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Juventus",
+		"time": "22/10 21:00",
+		"away": "VfB Stuttgart",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSG",
+		"time": "22/10 21:00",
+		"away": "PSV",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Real Madrid",
+		"time": "22/10 21:00",
+		"away": "Borussia Dortmund",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Puntigamer Sturm Graz",
+		"time": "22/10 21:00",
+		"away": "Sp. Portugal",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atalanta",
+		"time": "23/10 18:45",
+		"away": "Celtic",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brest",
+		"time": "23/10 18:45",
+		"away": "Bayer 04 Leverkusen",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atl\u00e9tico",
+		"time": "23/10 21:00",
+		"away": "Lille",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Barcelona",
+		"time": "23/10 21:00",
+		"away": "Bayern M\u00fanich",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Benfica",
+		"time": "23/10 21:00",
+		"away": "Feyenoord",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Salzburgo",
+		"time": "23/10 21:00",
+		"away": "Dinamo Zagreb",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "M. City",
+		"time": "23/10 21:00",
+		"away": "Sparta Praga",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Leipzig",
+		"time": "23/10 21:00",
+		"away": "Liverpool",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "Young Boys",
+		"time": "23/10 21:00",
+		"away": "Inter Mil\u00e1n",
+		"match_day": 3,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSV",
+		"time": "05/11 18:45",
+		"away": "Girona",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Slovan Bratislava",
+		"time": "05/11 18:45",
+		"away": "Dinamo Zagreb",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bolonia",
+		"time": "05/11 21:00",
+		"away": "Monaco",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Borussia Dortmund",
+		"time": "05/11 21:00",
+		"away": "SK Puntigamer Sturm Graz",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Celtic",
+		"time": "05/11 21:00",
+		"away": "Leipzig",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Lille",
+		"time": "05/11 21:00",
+		"away": "Juventus",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "05/11 21:00",
+		"away": "Bayer 04 Leverkusen",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Real Madrid",
+		"time": "05/11 21:00",
+		"away": "Milan",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sp. Portugal",
+		"time": "05/11 21:00",
+		"away": "M. City",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brujas",
+		"time": "06/11 18:45",
+		"away": "Aston Villa",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Shakhtar Donetsk",
+		"time": "06/11 18:45",
+		"away": "Young Boys",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Estrella Roja",
+		"time": "06/11 21:00",
+		"away": "Barcelona",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayern M\u00fanich",
+		"time": "06/11 21:00",
+		"away": "Benfica",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Feyenoord",
+		"time": "06/11 21:00",
+		"away": "Salzburgo",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Inter Mil\u00e1n",
+		"time": "06/11 21:00",
+		"away": "Arsenal",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSG",
+		"time": "06/11 21:00",
+		"away": "Atl\u00e9tico",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sparta Praga",
+		"time": "06/11 21:00",
+		"away": "Brest",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "VfB Stuttgart",
+		"time": "06/11 21:00",
+		"away": "Atalanta",
+		"match_day": 4,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Slovan Bratislava",
+		"time": "26/11 18:45",
+		"away": "Milan",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sparta Praga",
+		"time": "26/11 18:45",
+		"away": "Atl\u00e9tico",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Barcelona",
+		"time": "26/11 21:00",
+		"away": "Brest",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayer 04 Leverkusen",
+		"time": "26/11 21:00",
+		"away": "Salzburgo",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayern M\u00fanich",
+		"time": "26/11 21:00",
+		"away": "PSG",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Inter Mil\u00e1n",
+		"time": "26/11 21:00",
+		"away": "Leipzig",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "M. City",
+		"time": "26/11 21:00",
+		"away": "Feyenoord",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sp. Portugal",
+		"time": "26/11 21:00",
+		"away": "Arsenal",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Young Boys",
+		"time": "26/11 21:00",
+		"away": "Atalanta",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Estrella Roja",
+		"time": "27/11 18:45",
+		"away": "VfB Stuttgart",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Puntigamer Sturm Graz",
+		"time": "27/11 18:45",
+		"away": "Girona",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Aston Villa",
+		"time": "27/11 21:00",
+		"away": "Juventus",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bolonia",
+		"time": "27/11 21:00",
+		"away": "Lille",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Celtic",
+		"time": "27/11 21:00",
+		"away": "Brujas",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Dinamo Zagreb",
+		"time": "27/11 21:00",
+		"away": "Borussia Dortmund",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "27/11 21:00",
+		"away": "Real Madrid",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Monaco",
+		"time": "27/11 21:00",
+		"away": "Benfica",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSV",
+		"time": "27/11 21:00",
+		"away": "Shakhtar Donetsk",
+		"match_day": 5,
+		"competition": "ucl"
+	},
+	{
+		"home": "Dinamo Zagreb",
+		"time": "10/12 18:45",
+		"away": "Celtic",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Girona",
+		"time": "10/12 18:45",
+		"away": "Liverpool",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atalanta",
+		"time": "10/12 21:00",
+		"away": "Real Madrid",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayer 04 Leverkusen",
+		"time": "10/12 21:00",
+		"away": "Inter Mil\u00e1n",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brest",
+		"time": "10/12 21:00",
+		"away": "PSV",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brujas",
+		"time": "10/12 21:00",
+		"away": "Sp. Portugal",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Salzburgo",
+		"time": "10/12 21:00",
+		"away": "PSG",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Leipzig",
+		"time": "10/12 21:00",
+		"away": "Aston Villa",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Shakhtar Donetsk",
+		"time": "10/12 21:00",
+		"away": "Bayern M\u00fanich",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atl\u00e9tico",
+		"time": "11/12 18:45",
+		"away": "SK Slovan Bratislava",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Lille",
+		"time": "11/12 18:45",
+		"away": "SK Puntigamer Sturm Graz",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Arsenal",
+		"time": "11/12 21:00",
+		"away": "Monaco",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Benfica",
+		"time": "11/12 21:00",
+		"away": "Bolonia",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Borussia Dortmund",
+		"time": "11/12 21:00",
+		"away": "Barcelona",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Feyenoord",
+		"time": "11/12 21:00",
+		"away": "Sparta Praga",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Juventus",
+		"time": "11/12 21:00",
+		"away": "M. City",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Milan",
+		"time": "11/12 21:00",
+		"away": "Estrella Roja",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "VfB Stuttgart",
+		"time": "11/12 21:00",
+		"away": "Young Boys",
+		"match_day": 6,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atalanta",
+		"time": "21/01 18:45",
+		"away": "SK Puntigamer Sturm Graz",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Monaco",
+		"time": "21/01 18:45",
+		"away": "Aston Villa",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Atl\u00e9tico",
+		"time": "21/01 21:00",
+		"away": "Bayer 04 Leverkusen",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Benfica",
+		"time": "21/01 21:00",
+		"away": "Barcelona",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bolonia",
+		"time": "21/01 21:00",
+		"away": "Borussia Dortmund",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brujas",
+		"time": "21/01 21:00",
+		"away": "Juventus",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Estrella Roja",
+		"time": "21/01 21:00",
+		"away": "PSV",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "21/01 21:00",
+		"away": "Lille",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Slovan Bratislava",
+		"time": "21/01 21:00",
+		"away": "VfB Stuttgart",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Leipzig",
+		"time": "22/01 18:45",
+		"away": "Sp. Portugal",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Shakhtar Donetsk",
+		"time": "22/01 18:45",
+		"away": "Brest",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Arsenal",
+		"time": "22/01 21:00",
+		"away": "Dinamo Zagreb",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Celtic",
+		"time": "22/01 21:00",
+		"away": "Young Boys",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Feyenoord",
+		"time": "22/01 21:00",
+		"away": "Bayern M\u00fanich",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Milan",
+		"time": "22/01 21:00",
+		"away": "Girona",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSG",
+		"time": "22/01 21:00",
+		"away": "M. City",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Real Madrid",
+		"time": "22/01 21:00",
+		"away": "Salzburgo",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sparta Praga",
+		"time": "22/01 21:00",
+		"away": "Inter Mil\u00e1n",
+		"match_day": 7,
+		"competition": "ucl"
+	},
+	{
+		"home": "Aston Villa",
+		"time": "29/01 21:00",
+		"away": "Celtic",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Barcelona",
+		"time": "29/01 21:00",
+		"away": "Atalanta",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayer 04 Leverkusen",
+		"time": "29/01 21:00",
+		"away": "Sparta Praga",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Borussia Dortmund",
+		"time": "29/01 21:00",
+		"away": "Shakhtar Donetsk",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Brest",
+		"time": "29/01 21:00",
+		"away": "Real Madrid",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Dinamo Zagreb",
+		"time": "29/01 21:00",
+		"away": "Milan",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Bayern M\u00fanich",
+		"time": "29/01 21:00",
+		"away": "SK Slovan Bratislava",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Salzburgo",
+		"time": "29/01 21:00",
+		"away": "Atl\u00e9tico",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Girona",
+		"time": "29/01 21:00",
+		"away": "Arsenal",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Inter Mil\u00e1n",
+		"time": "29/01 21:00",
+		"away": "Monaco",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Juventus",
+		"time": "29/01 21:00",
+		"away": "Benfica",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Lille",
+		"time": "29/01 21:00",
+		"away": "Feyenoord",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "M. City",
+		"time": "29/01 21:00",
+		"away": "Brujas",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "PSV",
+		"time": "29/01 21:00",
+		"away": "Liverpool",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "SK Puntigamer Sturm Graz",
+		"time": "29/01 21:00",
+		"away": "Leipzig",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Sp. Portugal",
+		"time": "29/01 21:00",
+		"away": "Bolonia",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "VfB Stuttgart",
+		"time": "29/01 21:00",
+		"away": "PSG",
+		"match_day": 8,
+		"competition": "ucl"
+	},
+	{
+		"home": "Young Boys",
+		"time": "29/01 21:00",
+		"away": "Estrella Roja",
+		"match_day": 8,
+		"competition": "ucl"
+	}
+]
