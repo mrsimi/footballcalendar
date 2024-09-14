@@ -1,210 +1,210 @@
 [
 	{
 		"home": "M. United",
-		"time": "16/08 21:00",
+		"time": "1-0",
 		"away": "Fulham",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Ipswich Town",
-		"time": "17/08 13:30",
+		"time": "0-2",
 		"away": "Liverpool",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Arsenal",
-		"time": "17/08 16:00",
+		"time": "2-0",
 		"away": "Wolverhampton Wanderers",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Everton",
-		"time": "17/08 16:00",
+		"time": "0-3",
 		"away": "Brighton and Hove Albion",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Newcastle United",
-		"time": "17/08 16:00",
+		"time": "1-0",
 		"away": "Southampton",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Nottingham Forest",
-		"time": "17/08 16:00",
+		"time": "1-1",
 		"away": "Bournemouth",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "West Ham Utd.",
-		"time": "17/08 18:30",
+		"time": "1-2",
 		"away": "Aston Villa",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Brentford",
-		"time": "18/08 15:00",
+		"time": "2-1",
 		"away": "Crystal Palace",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Chelsea",
-		"time": "18/08 17:30",
+		"time": "0-2",
 		"away": "M. City",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Leicester City",
-		"time": "19/08 21:00",
+		"time": "1-1",
 		"away": "Tottenham H.",
 		"match_day": 1,
 		"competition": "epl"
 	},
 	{
 		"home": "Brighton and Hove Albion",
-		"time": "24/08 13:30",
+		"time": "2-1",
 		"away": "M. United",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Crystal Palace",
-		"time": "24/08 16:00",
+		"time": "0-2",
 		"away": "West Ham Utd.",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Fulham",
-		"time": "24/08 16:00",
+		"time": "2-1",
 		"away": "Leicester City",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "M. City",
-		"time": "24/08 16:00",
+		"time": "4-1",
 		"away": "Ipswich Town",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Southampton",
-		"time": "24/08 16:00",
+		"time": "0-1",
 		"away": "Nottingham Forest",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Tottenham H.",
-		"time": "24/08 16:00",
+		"time": "4-0",
 		"away": "Everton",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Aston Villa",
-		"time": "24/08 18:30",
+		"time": "0-2",
 		"away": "Arsenal",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Bournemouth",
-		"time": "25/08 15:00",
+		"time": "1-1",
 		"away": "Newcastle United",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Wolverhampton Wanderers",
-		"time": "25/08 15:00",
+		"time": "2-6",
 		"away": "Chelsea",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Liverpool",
-		"time": "25/08 17:30",
+		"time": "2-0",
 		"away": "Brentford",
 		"match_day": 2,
 		"competition": "epl"
 	},
 	{
 		"home": "Arsenal",
-		"time": "31/08 13:30",
+		"time": "1-1",
 		"away": "Brighton and Hove Albion",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Brentford",
-		"time": "31/08 16:00",
+		"time": "3-1",
 		"away": "Southampton",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Everton",
-		"time": "31/08 16:00",
+		"time": "2-3",
 		"away": "Bournemouth",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Ipswich Town",
-		"time": "31/08 16:00",
+		"time": "1-1",
 		"away": "Fulham",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Leicester City",
-		"time": "31/08 16:00",
+		"time": "1-2",
 		"away": "Aston Villa",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Nottingham Forest",
-		"time": "31/08 16:00",
+		"time": "1-1",
 		"away": "Wolverhampton Wanderers",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "West Ham Utd.",
-		"time": "31/08 18:30",
+		"time": "1-3",
 		"away": "M. City",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Chelsea",
-		"time": "01/09 14:30",
+		"time": "1-1",
 		"away": "Crystal Palace",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "Newcastle United",
-		"time": "01/09 14:30",
+		"time": "2-1",
 		"away": "Tottenham H.",
 		"match_day": 3,
 		"competition": "epl"
 	},
 	{
 		"home": "M. United",
-		"time": "01/09 17:00",
+		"time": "0-3",
 		"away": "Liverpool",
 		"match_day": 3,
 		"competition": "epl"
@@ -420,6 +420,13 @@
 		"competition": "epl"
 	},
 	{
+		"home": "Crystal Palace",
+		"time": "05/10 13:30",
+		"away": "Liverpool",
+		"match_day": 7,
+		"competition": "epl"
+	},
+	{
 		"home": "Arsenal",
 		"time": "05/10 16:00",
 		"away": "Southampton",
@@ -427,44 +434,9 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Aston Villa",
-		"time": "05/10 16:00",
-		"away": "M. United",
-		"match_day": 7,
-		"competition": "epl"
-	},
-	{
 		"home": "Brentford",
 		"time": "05/10 16:00",
 		"away": "Wolverhampton Wanderers",
-		"match_day": 7,
-		"competition": "epl"
-	},
-	{
-		"home": "Brighton and Hove Albion",
-		"time": "05/10 16:00",
-		"away": "Tottenham H.",
-		"match_day": 7,
-		"competition": "epl"
-	},
-	{
-		"home": "Chelsea",
-		"time": "05/10 16:00",
-		"away": "Nottingham Forest",
-		"match_day": 7,
-		"competition": "epl"
-	},
-	{
-		"home": "Crystal Palace",
-		"time": "05/10 16:00",
-		"away": "Liverpool",
-		"match_day": 7,
-		"competition": "epl"
-	},
-	{
-		"home": "Everton",
-		"time": "05/10 16:00",
-		"away": "Newcastle United",
 		"match_day": 7,
 		"competition": "epl"
 	},
@@ -490,9 +462,37 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Bournemouth",
-		"time": "19/10 16:00",
-		"away": "Arsenal",
+		"home": "Everton",
+		"time": "05/10 18:30",
+		"away": "Newcastle United",
+		"match_day": 7,
+		"competition": "epl"
+	},
+	{
+		"home": "Aston Villa",
+		"time": "06/10 15:00",
+		"away": "M. United",
+		"match_day": 7,
+		"competition": "epl"
+	},
+	{
+		"home": "Chelsea",
+		"time": "06/10 15:00",
+		"away": "Nottingham Forest",
+		"match_day": 7,
+		"competition": "epl"
+	},
+	{
+		"home": "Brighton and Hove Albion",
+		"time": "06/10 17:30",
+		"away": "Tottenham H.",
+		"match_day": 7,
+		"competition": "epl"
+	},
+	{
+		"home": "Tottenham H.",
+		"time": "19/10 13:30",
+		"away": "West Ham Utd.",
 		"match_day": 8,
 		"competition": "epl"
 	},
@@ -511,13 +511,6 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Liverpool",
-		"time": "19/10 16:00",
-		"away": "Chelsea",
-		"match_day": 8,
-		"competition": "epl"
-	},
-	{
 		"home": "M. United",
 		"time": "19/10 16:00",
 		"away": "Brentford",
@@ -532,13 +525,6 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Nottingham Forest",
-		"time": "19/10 16:00",
-		"away": "Crystal Palace",
-		"match_day": 8,
-		"competition": "epl"
-	},
-	{
 		"home": "Southampton",
 		"time": "19/10 16:00",
 		"away": "Leicester City",
@@ -546,23 +532,37 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Tottenham H.",
-		"time": "19/10 16:00",
-		"away": "West Ham Utd.",
+		"home": "Bournemouth",
+		"time": "19/10 18:30",
+		"away": "Arsenal",
 		"match_day": 8,
 		"competition": "epl"
 	},
 	{
 		"home": "Wolverhampton Wanderers",
-		"time": "19/10 16:00",
+		"time": "20/10 15:00",
 		"away": "M. City",
 		"match_day": 8,
 		"competition": "epl"
 	},
 	{
-		"home": "Arsenal",
-		"time": "26/10 16:00",
-		"away": "Liverpool",
+		"home": "Liverpool",
+		"time": "20/10 17:30",
+		"away": "Chelsea",
+		"match_day": 8,
+		"competition": "epl"
+	},
+	{
+		"home": "Nottingham Forest",
+		"time": "21/10 21:00",
+		"away": "Crystal Palace",
+		"match_day": 8,
+		"competition": "epl"
+	},
+	{
+		"home": "Leicester City",
+		"time": "25/10 21:00",
+		"away": "Nottingham Forest",
 		"match_day": 9,
 		"competition": "epl"
 	},
@@ -588,34 +588,6 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Chelsea",
-		"time": "26/10 16:00",
-		"away": "Newcastle United",
-		"match_day": 9,
-		"competition": "epl"
-	},
-	{
-		"home": "Crystal Palace",
-		"time": "26/10 16:00",
-		"away": "Tottenham H.",
-		"match_day": 9,
-		"competition": "epl"
-	},
-	{
-		"home": "Everton",
-		"time": "26/10 16:00",
-		"away": "Fulham",
-		"match_day": 9,
-		"competition": "epl"
-	},
-	{
-		"home": "Leicester City",
-		"time": "26/10 16:00",
-		"away": "Nottingham Forest",
-		"match_day": 9,
-		"competition": "epl"
-	},
-	{
 		"home": "M. City",
 		"time": "26/10 16:00",
 		"away": "Southampton",
@@ -623,23 +595,51 @@
 		"competition": "epl"
 	},
 	{
+		"home": "Everton",
+		"time": "26/10 18:30",
+		"away": "Fulham",
+		"match_day": 9,
+		"competition": "epl"
+	},
+	{
+		"home": "Chelsea",
+		"time": "27/10 15:00",
+		"away": "Newcastle United",
+		"match_day": 9,
+		"competition": "epl"
+	},
+	{
+		"home": "Crystal Palace",
+		"time": "27/10 15:00",
+		"away": "Tottenham H.",
+		"match_day": 9,
+		"competition": "epl"
+	},
+	{
 		"home": "West Ham Utd.",
-		"time": "26/10 16:00",
+		"time": "27/10 15:00",
 		"away": "M. United",
 		"match_day": 9,
+		"competition": "epl"
+	},
+	{
+		"home": "Arsenal",
+		"time": "27/10 17:30",
+		"away": "Liverpool",
+		"match_day": 9,
+		"competition": "epl"
+	},
+	{
+		"home": "Newcastle United",
+		"time": "02/11 13:30",
+		"away": "Arsenal",
+		"match_day": 10,
 		"competition": "epl"
 	},
 	{
 		"home": "Bournemouth",
 		"time": "02/11 16:00",
 		"away": "M. City",
-		"match_day": 10,
-		"competition": "epl"
-	},
-	{
-		"home": "Fulham",
-		"time": "02/11 16:00",
-		"away": "Brentford",
 		"match_day": 10,
 		"competition": "epl"
 	},
@@ -658,20 +658,6 @@
 		"competition": "epl"
 	},
 	{
-		"home": "M. United",
-		"time": "02/11 16:00",
-		"away": "Chelsea",
-		"match_day": 10,
-		"competition": "epl"
-	},
-	{
-		"home": "Newcastle United",
-		"time": "02/11 16:00",
-		"away": "Arsenal",
-		"match_day": 10,
-		"competition": "epl"
-	},
-	{
 		"home": "Nottingham Forest",
 		"time": "02/11 16:00",
 		"away": "West Ham Utd.",
@@ -686,16 +672,30 @@
 		"competition": "epl"
 	},
 	{
+		"home": "Wolverhampton Wanderers",
+		"time": "02/11 18:30",
+		"away": "Crystal Palace",
+		"match_day": 10,
+		"competition": "epl"
+	},
+	{
 		"home": "Tottenham H.",
-		"time": "02/11 16:00",
+		"time": "03/11 15:00",
 		"away": "Aston Villa",
 		"match_day": 10,
 		"competition": "epl"
 	},
 	{
-		"home": "Wolverhampton Wanderers",
-		"time": "02/11 16:00",
-		"away": "Crystal Palace",
+		"home": "M. United",
+		"time": "03/11 17:30",
+		"away": "Chelsea",
+		"match_day": 10,
+		"competition": "epl"
+	},
+	{
+		"home": "Fulham",
+		"time": "04/11 21:00",
+		"away": "Brentford",
 		"match_day": 10,
 		"competition": "epl"
 	},
@@ -707,51 +707,9 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Brighton and Hove Albion",
-		"time": "09/11 16:00",
-		"away": "M. City",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
-		"home": "Chelsea",
-		"time": "09/11 16:00",
-		"away": "Arsenal",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
 		"home": "Crystal Palace",
 		"time": "09/11 16:00",
 		"away": "Fulham",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
-		"home": "Liverpool",
-		"time": "09/11 16:00",
-		"away": "Aston Villa",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
-		"home": "M. United",
-		"time": "09/11 16:00",
-		"away": "Leicester City",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
-		"home": "Nottingham Forest",
-		"time": "09/11 16:00",
-		"away": "Newcastle United",
-		"match_day": 11,
-		"competition": "epl"
-	},
-	{
-		"home": "Tottenham H.",
-		"time": "09/11 16:00",
-		"away": "Ipswich Town",
 		"match_day": 11,
 		"competition": "epl"
 	},
@@ -767,6 +725,55 @@
 		"time": "09/11 16:00",
 		"away": "Southampton",
 		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Brighton and Hove Albion",
+		"time": "09/11 18:30",
+		"away": "M. City",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "09/11 21:00",
+		"away": "Aston Villa",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "M. United",
+		"time": "10/11 15:00",
+		"away": "Leicester City",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Nottingham Forest",
+		"time": "10/11 15:00",
+		"away": "Newcastle United",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Tottenham H.",
+		"time": "10/11 15:00",
+		"away": "Ipswich Town",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Chelsea",
+		"time": "10/11 17:30",
+		"away": "Arsenal",
+		"match_day": 11,
+		"competition": "epl"
+	},
+	{
+		"home": "Leicester City",
+		"time": "23/11 13:30",
+		"away": "Chelsea",
+		"match_day": 12,
 		"competition": "epl"
 	},
 	{
@@ -805,58 +812,44 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Ipswich Town",
-		"time": "23/11 16:00",
-		"away": "M. United",
-		"match_day": 12,
-		"competition": "epl"
-	},
-	{
-		"home": "Leicester City",
-		"time": "23/11 16:00",
-		"away": "Chelsea",
-		"match_day": 12,
-		"competition": "epl"
-	},
-	{
 		"home": "M. City",
-		"time": "23/11 16:00",
+		"time": "23/11 18:30",
 		"away": "Tottenham H.",
 		"match_day": 12,
 		"competition": "epl"
 	},
 	{
+		"home": "Southampton",
+		"time": "24/11 15:00",
+		"away": "Liverpool",
+		"match_day": 12,
+		"competition": "epl"
+	},
+	{
+		"home": "Ipswich Town",
+		"time": "24/11 17:30",
+		"away": "M. United",
+		"match_day": 12,
+		"competition": "epl"
+	},
+	{
 		"home": "Newcastle United",
-		"time": "23/11 16:00",
+		"time": "25/11 21:00",
 		"away": "West Ham Utd.",
 		"match_day": 12,
 		"competition": "epl"
 	},
 	{
-		"home": "Southampton",
-		"time": "23/11 16:00",
-		"away": "Liverpool",
-		"match_day": 12,
+		"home": "Brighton and Hove Albion",
+		"time": "29/11 21:00",
+		"away": "Southampton",
+		"match_day": 13,
 		"competition": "epl"
 	},
 	{
 		"home": "Brentford",
 		"time": "30/11 16:00",
 		"away": "Leicester City",
-		"match_day": 13,
-		"competition": "epl"
-	},
-	{
-		"home": "Brighton and Hove Albion",
-		"time": "30/11 16:00",
-		"away": "Southampton",
-		"match_day": 13,
-		"competition": "epl"
-	},
-	{
-		"home": "Chelsea",
-		"time": "30/11 16:00",
-		"away": "Aston Villa",
 		"match_day": 13,
 		"competition": "epl"
 	},
@@ -868,20 +861,6 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Liverpool",
-		"time": "30/11 16:00",
-		"away": "M. City",
-		"match_day": 13,
-		"competition": "epl"
-	},
-	{
-		"home": "M. United",
-		"time": "30/11 16:00",
-		"away": "Everton",
-		"match_day": 13,
-		"competition": "epl"
-	},
-	{
 		"home": "Nottingham Forest",
 		"time": "30/11 16:00",
 		"away": "Ipswich Town",
@@ -889,23 +868,44 @@
 		"competition": "epl"
 	},
 	{
-		"home": "Tottenham H.",
+		"home": "Wolverhampton Wanderers",
 		"time": "30/11 16:00",
-		"away": "Fulham",
+		"away": "Bournemouth",
 		"match_day": 13,
 		"competition": "epl"
 	},
 	{
 		"home": "West Ham Utd.",
-		"time": "30/11 16:00",
+		"time": "30/11 18:30",
 		"away": "Arsenal",
 		"match_day": 13,
 		"competition": "epl"
 	},
 	{
-		"home": "Wolverhampton Wanderers",
-		"time": "30/11 16:00",
-		"away": "Bournemouth",
+		"home": "Chelsea",
+		"time": "01/12 14:30",
+		"away": "Aston Villa",
+		"match_day": 13,
+		"competition": "epl"
+	},
+	{
+		"home": "M. United",
+		"time": "01/12 14:30",
+		"away": "Everton",
+		"match_day": 13,
+		"competition": "epl"
+	},
+	{
+		"home": "Tottenham H.",
+		"time": "01/12 14:30",
+		"away": "Fulham",
+		"match_day": 13,
+		"competition": "epl"
+	},
+	{
+		"home": "Liverpool",
+		"time": "01/12 17:00",
+		"away": "M. City",
 		"match_day": 13,
 		"competition": "epl"
 	},

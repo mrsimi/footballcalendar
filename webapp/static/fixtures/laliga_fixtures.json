@@ -1,422 +1,464 @@
 [
 	{
 		"home": "Athletic",
-		"time": "15/08 19:00",
+		"time": "1-1",
 		"away": "Getafe",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Betis",
-		"time": "15/08 21:30",
+		"time": "1-1",
 		"away": "Girona",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Celta",
-		"time": "16/08 19:00",
+		"time": "2-1",
 		"away": "Alav\u00e9s",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Las Palmas",
-		"time": "16/08 21:30",
+		"time": "2-2",
 		"away": "Sevilla",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Osasuna",
-		"time": "17/08 19:00",
+		"time": "1-1",
 		"away": "Legan\u00e9s",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Valencia",
-		"time": "17/08 21:30",
+		"time": "1-2",
 		"away": "Barcelona",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "R. Sociedad",
-		"time": "18/08 19:00",
+		"time": "1-2",
 		"away": "Rayo",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Mallorca",
-		"time": "18/08 21:30",
+		"time": "1-1",
 		"away": "Real Madrid",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Valladolid",
-		"time": "19/08 19:00",
+		"time": "1-0",
 		"away": "Espanyol",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Villarreal",
-		"time": "19/08 21:30",
+		"time": "2-2",
 		"away": "Atl\u00e9tico",
 		"match_day": 1,
 		"competition": "laliga"
 	},
 	{
 		"home": "Celta",
-		"time": "23/08 19:00",
+		"time": "3-1",
 		"away": "Valencia",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Sevilla",
-		"time": "23/08 21:30",
+		"time": "1-2",
 		"away": "Villarreal",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Osasuna",
-		"time": "24/08 17:00",
+		"time": "1-0",
 		"away": "Mallorca",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Barcelona",
-		"time": "24/08 19:00",
+		"time": "2-1",
 		"away": "Athletic",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Espanyol",
-		"time": "24/08 21:30",
+		"time": "0-1",
 		"away": "R. Sociedad",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Getafe",
-		"time": "24/08 21:30",
+		"time": "0-0",
 		"away": "Rayo",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Real Madrid",
-		"time": "25/08 17:00",
+		"time": "3-0",
 		"away": "Valladolid",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Legan\u00e9s",
-		"time": "25/08 19:00",
+		"time": "2-1",
 		"away": "Las Palmas",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Alav\u00e9s",
-		"time": "25/08 19:15",
+		"time": "0-0",
 		"away": "Betis",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Atl\u00e9tico",
-		"time": "25/08 21:30",
+		"time": "3-0",
 		"away": "Girona",
 		"match_day": 2,
 		"competition": "laliga"
 	},
 	{
 		"home": "Villarreal",
-		"time": "26/08 21:30",
+		"time": "4-3",
 		"away": "Celta",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Mallorca",
-		"time": "27/08 19:00",
+		"time": "0-0",
 		"away": "Sevilla",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Rayo",
-		"time": "27/08 21:30",
+		"time": "1-2",
 		"away": "Barcelona",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Athletic",
-		"time": "28/08 19:00",
+		"time": "1-0",
 		"away": "Valencia",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Valladolid",
-		"time": "28/08 19:00",
+		"time": "0-0",
 		"away": "Legan\u00e9s",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
-		"home": "Betis",
-		"time": "Aplazado",
-		"away": "Getafe",
-		"match_day": 3,
-		"competition": "laliga"
-	},
-	{
 		"home": "Atl\u00e9tico",
-		"time": "28/08 21:30",
+		"time": "0-0",
 		"away": "Espanyol",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "R. Sociedad",
-		"time": "28/08 21:30",
+		"time": "1-2",
 		"away": "Alav\u00e9s",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Girona",
-		"time": "29/08 19:00",
+		"time": "4-0",
 		"away": "Osasuna",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Las Palmas",
-		"time": "29/08 21:30",
+		"time": "1-1",
 		"away": "Real Madrid",
+		"match_day": 3,
+		"competition": "laliga"
+	},
+	{
+		"home": "Betis",
+		"time": "18/09 19:00",
+		"away": "Getafe",
 		"match_day": 3,
 		"competition": "laliga"
 	},
 	{
 		"home": "Barcelona",
-		"time": "31/08 17:00",
+		"time": "7-0",
 		"away": "Valladolid",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Athletic",
-		"time": "31/08 19:00",
+		"time": "0-1",
 		"away": "Atl\u00e9tico",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Espanyol",
-		"time": "31/08 19:15",
+		"time": "2-1",
 		"away": "Rayo",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Legan\u00e9s",
-		"time": "31/08 21:30",
+		"time": "0-1",
 		"away": "Mallorca",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Valencia",
-		"time": "31/08 21:30",
+		"time": "1-1",
 		"away": "Villarreal",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Alav\u00e9s",
-		"time": "01/09 17:00",
+		"time": "2-0",
 		"away": "Las Palmas",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Osasuna",
-		"time": "01/09 17:00",
+		"time": "3-2",
 		"away": "Celta",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Sevilla",
-		"time": "01/09 19:00",
+		"time": "0-2",
 		"away": "Girona",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Getafe",
-		"time": "01/09 19:15",
+		"time": "0-0",
 		"away": "R. Sociedad",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
 		"home": "Real Madrid",
-		"time": "01/09 21:30",
+		"time": "2-0",
 		"away": "Betis",
 		"match_day": 4,
 		"competition": "laliga"
 	},
 	{
-		"home": "Atl\u00e9tico",
-		"time": "15/09 17:00",
-		"away": "Valencia",
+		"home": "Betis",
+		"time": "2-0",
+		"away": "Legan\u00e9s",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
-		"home": "Celta",
-		"time": "15/09 17:00",
-		"away": "Valladolid",
+		"home": "Mallorca",
+		"time": "14/09 14:00",
+		"away": "Villarreal",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
 		"home": "Espanyol",
-		"time": "15/09 17:00",
+		"time": "14/09 16:15",
 		"away": "Alav\u00e9s",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
+		"home": "Sevilla",
+		"time": "14/09 18:30",
+		"away": "Getafe",
+		"match_day": 5,
+		"competition": "laliga"
+	},
+	{
+		"home": "R. Sociedad",
+		"time": "14/09 21:00",
+		"away": "Real Madrid",
+		"match_day": 5,
+		"competition": "laliga"
+	},
+	{
+		"home": "Celta",
+		"time": "15/09 14:00",
+		"away": "Valladolid",
+		"match_day": 5,
+		"competition": "laliga"
+	},
+	{
 		"home": "Girona",
-		"time": "15/09 17:00",
+		"time": "15/09 16:15",
 		"away": "Barcelona",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
 		"home": "Las Palmas",
-		"time": "15/09 17:00",
+		"time": "15/09 18:30",
 		"away": "Athletic",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
-		"home": "Mallorca",
-		"time": "15/09 17:00",
-		"away": "Villarreal",
+		"home": "Atl\u00e9tico",
+		"time": "15/09 21:00",
+		"away": "Valencia",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
 		"home": "Rayo",
-		"time": "15/09 17:00",
+		"time": "16/09 21:00",
 		"away": "Osasuna",
 		"match_day": 5,
 		"competition": "laliga"
 	},
 	{
-		"home": "Betis",
-		"time": "15/09 17:00",
-		"away": "Legan\u00e9s",
-		"match_day": 5,
-		"competition": "laliga"
-	},
-	{
-		"home": "R. Sociedad",
-		"time": "15/09 17:00",
-		"away": "Real Madrid",
-		"match_day": 5,
-		"competition": "laliga"
-	},
-	{
-		"home": "Sevilla",
-		"time": "15/09 17:00",
-		"away": "Getafe",
-		"match_day": 5,
-		"competition": "laliga"
-	},
-	{
 		"home": "Alav\u00e9s",
-		"time": "22/09 17:00",
+		"time": "20/09 21:00",
 		"away": "Sevilla",
 		"match_day": 6,
 		"competition": "laliga"
 	},
 	{
-		"home": "Athletic",
-		"time": "22/09 17:00",
-		"away": "Celta",
-		"match_day": 6,
-		"competition": "laliga"
-	},
-	{
-		"home": "Getafe",
-		"time": "22/09 17:00",
-		"away": "Legan\u00e9s",
+		"home": "Valladolid",
+		"time": "21/09 14:00",
+		"away": "R. Sociedad",
 		"match_day": 6,
 		"competition": "laliga"
 	},
 	{
 		"home": "Osasuna",
-		"time": "22/09 17:00",
+		"time": "21/09 16:15",
 		"away": "Las Palmas",
 		"match_day": 6,
 		"competition": "laliga"
 	},
 	{
+		"home": "Valencia",
+		"time": "21/09 18:30",
+		"away": "Girona",
+		"match_day": 6,
+		"competition": "laliga"
+	},
+	{
+		"home": "Real Madrid",
+		"time": "21/09 21:00",
+		"away": "Espanyol",
+		"match_day": 6,
+		"competition": "laliga"
+	},
+	{
+		"home": "Getafe",
+		"time": "22/09 14:00",
+		"away": "Legan\u00e9s",
+		"match_day": 6,
+		"competition": "laliga"
+	},
+	{
+		"home": "Athletic",
+		"time": "22/09 16:15",
+		"away": "Celta",
+		"match_day": 6,
+		"competition": "laliga"
+	},
+	{
+		"home": "Villarreal",
+		"time": "22/09 18:30",
+		"away": "Barcelona",
+		"match_day": 6,
+		"competition": "laliga"
+	},
+	{
 		"home": "Rayo",
-		"time": "22/09 17:00",
+		"time": "22/09 21:00",
 		"away": "Atl\u00e9tico",
 		"match_day": 6,
 		"competition": "laliga"
 	},
 	{
 		"home": "Betis",
-		"time": "22/09 17:00",
+		"time": "23/09 21:00",
 		"away": "Mallorca",
 		"match_day": 6,
 		"competition": "laliga"
 	},
 	{
-		"home": "Real Madrid",
-		"time": "22/09 17:00",
-		"away": "Espanyol",
-		"match_day": 6,
+		"home": "Mallorca",
+		"time": "17/09 19:00",
+		"away": "R. Sociedad",
+		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
-		"home": "Valladolid",
-		"time": "22/09 17:00",
-		"away": "R. Sociedad",
-		"match_day": 6,
+		"home": "Legan\u00e9s",
+		"time": "19/09 19:00",
+		"away": "Athletic",
+		"match_day": 7,
+		"competition": "laliga"
+	},
+	{
+		"home": "Sevilla",
+		"time": "24/09 19:00",
+		"away": "Valladolid",
+		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
 		"home": "Valencia",
-		"time": "22/09 17:00",
-		"away": "Girona",
-		"match_day": 6,
+		"time": "24/09 19:00",
+		"away": "Osasuna",
+		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
-		"home": "Villarreal",
-		"time": "22/09 17:00",
-		"away": "Barcelona",
-		"match_day": 6,
+		"home": "Real Madrid",
+		"time": "24/09 21:00",
+		"away": "Alav\u00e9s",
+		"match_day": 7,
+		"competition": "laliga"
+	},
+	{
+		"home": "Girona",
+		"time": "25/09 19:00",
+		"away": "Rayo",
+		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
@@ -427,205 +469,163 @@
 		"competition": "laliga"
 	},
 	{
-		"home": "Celta",
-		"time": "25/09 21:00",
-		"away": "Atl\u00e9tico",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
 		"home": "Espanyol",
-		"time": "25/09 21:00",
+		"time": "26/09 19:00",
 		"away": "Villarreal",
 		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
-		"home": "Girona",
-		"time": "25/09 21:00",
-		"away": "Rayo",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
 		"home": "Las Palmas",
-		"time": "25/09 21:00",
+		"time": "26/09 19:00",
 		"away": "Betis",
 		"match_day": 7,
 		"competition": "laliga"
 	},
 	{
-		"home": "Legan\u00e9s",
-		"time": "25/09 21:00",
-		"away": "Athletic",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
-		"home": "Mallorca",
-		"time": "25/09 21:00",
-		"away": "R. Sociedad",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
-		"home": "Real Madrid",
-		"time": "25/09 21:00",
-		"away": "Alav\u00e9s",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
-		"home": "Sevilla",
-		"time": "25/09 21:00",
-		"away": "Valladolid",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
-		"home": "Valencia",
-		"time": "25/09 21:00",
-		"away": "Osasuna",
-		"match_day": 7,
-		"competition": "laliga"
-	},
-	{
-		"home": "Athletic",
-		"time": "29/09 17:00",
-		"away": "Sevilla",
-		"match_day": 8,
-		"competition": "laliga"
-	},
-	{
-		"home": "Atl\u00e9tico",
-		"time": "29/09 17:00",
-		"away": "Real Madrid",
-		"match_day": 8,
-		"competition": "laliga"
-	},
-	{
 		"home": "Celta",
-		"time": "29/09 17:00",
-		"away": "Girona",
+		"time": "26/09 21:00",
+		"away": "Atl\u00e9tico",
+		"match_day": 7,
+		"competition": "laliga"
+	},
+	{
+		"home": "Valladolid",
+		"time": "27/09 21:00",
+		"away": "Mallorca",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
 		"home": "Getafe",
-		"time": "29/09 17:00",
+		"time": "28/09 14:00",
 		"away": "Alav\u00e9s",
-		"match_day": 8,
-		"competition": "laliga"
-	},
-	{
-		"home": "Osasuna",
-		"time": "29/09 17:00",
-		"away": "Barcelona",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
 		"home": "Rayo",
-		"time": "29/09 17:00",
+		"time": "28/09 16:15",
 		"away": "Legan\u00e9s",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
-		"home": "Betis",
-		"time": "29/09 17:00",
-		"away": "Espanyol",
-		"match_day": 8,
-		"competition": "laliga"
-	},
-	{
 		"home": "R. Sociedad",
-		"time": "29/09 17:00",
+		"time": "28/09 18:30",
 		"away": "Valencia",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
-		"home": "Valladolid",
-		"time": "29/09 17:00",
-		"away": "Mallorca",
+		"home": "Osasuna",
+		"time": "28/09 21:00",
+		"away": "Barcelona",
+		"match_day": 8,
+		"competition": "laliga"
+	},
+	{
+		"home": "Celta",
+		"time": "29/09 14:00",
+		"away": "Girona",
+		"match_day": 8,
+		"competition": "laliga"
+	},
+	{
+		"home": "Athletic",
+		"time": "29/09 16:15",
+		"away": "Sevilla",
+		"match_day": 8,
+		"competition": "laliga"
+	},
+	{
+		"home": "Betis",
+		"time": "29/09 18:30",
+		"away": "Espanyol",
+		"match_day": 8,
+		"competition": "laliga"
+	},
+	{
+		"home": "Atl\u00e9tico",
+		"time": "29/09 21:00",
+		"away": "Real Madrid",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
 		"home": "Villarreal",
-		"time": "29/09 17:00",
+		"time": "30/09 21:00",
 		"away": "Las Palmas",
 		"match_day": 8,
 		"competition": "laliga"
 	},
 	{
-		"home": "Alav\u00e9s",
-		"time": "06/10 17:00",
-		"away": "Barcelona",
+		"home": "Legan\u00e9s",
+		"time": "04/10 21:00",
+		"away": "Valencia",
 		"match_day": 9,
 		"competition": "laliga"
 	},
 	{
 		"home": "Espanyol",
-		"time": "06/10 17:00",
+		"time": "05/10 14:00",
 		"away": "Mallorca",
 		"match_day": 9,
 		"competition": "laliga"
 	},
 	{
 		"home": "Getafe",
-		"time": "06/10 17:00",
+		"time": "05/10 16:15",
 		"away": "Osasuna",
 		"match_day": 9,
 		"competition": "laliga"
 	},
 	{
-		"home": "Girona",
-		"time": "06/10 17:00",
-		"away": "Athletic",
-		"match_day": 9,
-		"competition": "laliga"
-	},
-	{
 		"home": "Las Palmas",
-		"time": "06/10 17:00",
+		"time": "05/10 18:30",
 		"away": "Celta",
 		"match_day": 9,
 		"competition": "laliga"
 	},
 	{
-		"home": "Legan\u00e9s",
-		"time": "06/10 17:00",
-		"away": "Valencia",
-		"match_day": 9,
-		"competition": "laliga"
-	},
-	{
-		"home": "Real Madrid",
-		"time": "06/10 17:00",
-		"away": "Villarreal",
-		"match_day": 9,
-		"competition": "laliga"
-	},
-	{
-		"home": "R. Sociedad",
-		"time": "06/10 17:00",
-		"away": "Atl\u00e9tico",
-		"match_day": 9,
-		"competition": "laliga"
-	},
-	{
 		"home": "Valladolid",
-		"time": "06/10 17:00",
+		"time": "05/10 18:30",
 		"away": "Rayo",
 		"match_day": 9,
 		"competition": "laliga"
 	},
 	{
+		"home": "Real Madrid",
+		"time": "05/10 21:00",
+		"away": "Villarreal",
+		"match_day": 9,
+		"competition": "laliga"
+	},
+	{
+		"home": "Girona",
+		"time": "06/10 14:00",
+		"away": "Athletic",
+		"match_day": 9,
+		"competition": "laliga"
+	},
+	{
+		"home": "Alav\u00e9s",
+		"time": "06/10 16:15",
+		"away": "Barcelona",
+		"match_day": 9,
+		"competition": "laliga"
+	},
+	{
 		"home": "Sevilla",
-		"time": "06/10 17:00",
+		"time": "06/10 18:30",
 		"away": "Betis",
+		"match_day": 9,
+		"competition": "laliga"
+	},
+	{
+		"home": "R. Sociedad",
+		"time": "06/10 21:00",
+		"away": "Atl\u00e9tico",
 		"match_day": 9,
 		"competition": "laliga"
 	},
