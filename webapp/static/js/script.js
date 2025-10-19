@@ -109,3 +109,7 @@ function copySubscriptionLink() {
     alert('✅ Subscription link copied!')
   );
 }
+
+function resetForm() {
+  window.location.href = "/";
+}
