@@ -1,47 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-790HC4L802"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Calendar</title>
 
-  gtag('config', 'G-790HC4L802');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Calendar</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}"/>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-790HC4L802"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-790HC4L802');
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #10b981;
+      --bg-gradient: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+    }
+
+    body {
+      background: var(--bg-gradient);
+      font-family: 'Inter', sans-serif;
+      color: #f9fafb;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: 0.02em;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 1.25rem;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Remove glass style on mobile */
+    @media (max-width: 640px) {
+      .glass {
+        background: transparent;
+        border-radius: 0;
+        backdrop-filter: none;
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        padding: 0;
+      }
+    }
+
+    .checkbox-card input:checked + label {
+      background-color: var(--primary);
+      color: white;
+      transform: scale(1.03);
+      box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+    }
+
+    .fade-in {
+      animation: fadeIn 0.6s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.15);
+      border-radius: 10px;
+    }
+  </style>
 </head>
-<body>
-    <div class="overlay">  
-        <h2>Never miss a football game. Now it's in your calendar</h2> 
-        <p>Select football teams you want to be informed about and download their fixtures to your calendar
-            be reminded 1 hour before the match starts.  <br> <br> PS: Time in UTC+1</p> <br> 
 
-            <form  id="uploadForm" action="/" method="post">
-                <div class="dropdown">
-                    <!-- <button type="button" class="dropbtn">Select Competitions</button> -->
-                    <div id="competitionDropdown">
-                        <label><input type="checkbox" name="competition" value="laliga" onchange="updateTeams()"> La Liga</label>
-                        <label><input type="checkbox" name="competition" value="epl" onchange="updateTeams()"> EPL</label>
-                        <label><input type="checkbox" name="competition" value="ucl" onchange="updateTeams()"> UCL</label> <br> <br>
-                        <!-- <label><input type="checkbox" name="competition" value="seriea" onchange="updateTeams()"> Serie A</label> -->
-                    </div>
-                </div>
-                <!-- <input type="email"  name="email" style="padding: 5px 8px;"/> <br> -->
-                <div class="dropdown">
-                    <button type="button" class="dropbtn">Select Teams</button>
-                    <div class="dropdown-content" id="teamDropdown">
-                    </div>
-                </div>
-               
-                <input type="submit" value="Download Calendar" class="dropbtn" style="margin-top: 200px;">
-            </form>
+<body class="flex items-center justify-center sm:px-6 lg:px-8 py-8 sm:py-10">
+  <main class="glass w-full max-w-2xl p-5 sm:p-8 fade-in">
+    <!-- Header -->
+    <header class="text-center mb-8">
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-2 text-emerald-400 text-2xl sm:text-3xl font-semibold">
+        <span>⚽</span>
+        <span>Football Calendar</span>
+      </div>
+      <p class="text-gray-300 text-sm mt-3 leading-relaxed">
+        Stay on top of your favorite teams’ fixtures — directly in your calendar.
+        <br />
+        <span class="text-gray-400 text-xs">Reminders are 1 hour before kickoff (UTC+1)</span>
+      </p>
+    </header>
+
+    <!-- Form -->
+    <form id="uploadForm" action="/" method="post" class="space-y-8">
+      <!-- Competitions -->
+      <section>
+        <h2 class="text-base sm:text-lg font-semibold mb-3">Select Competitions</h2>
+        <div id="competitionDropdown" class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div class="checkbox-card">
+            <input id="laliga" type="checkbox" name="competition" value="laliga" class="hidden" onchange="updateTeams()">
+            <label for="laliga" class="block text-center py-3 px-2 rounded-lg bg-white bg-opacity-10 hover:bg-opacity-20 cursor-pointer transition font-medium text-sm sm:text-base">La&nbsp;Liga</label>
+          </div>
+          <div class="checkbox-card">
+            <input id="epl" type="checkbox" name="competition" value="epl" class="hidden" onchange="updateTeams()">
+            <label for="epl" class="block text-center py-3 px-2 rounded-lg bg-white bg-opacity-10 hover:bg-opacity-20 cursor-pointer transition font-medium text-sm sm:text-base">EPL</label>
+          </div>
+          <div class="checkbox-card col-span-2 sm:col-span-1">
+            <input id="ucl" type="checkbox" name="competition" value="ucl" class="hidden" onchange="updateTeams()">
+            <label for="ucl" class="block text-center py-3 px-2 rounded-lg bg-white bg-opacity-10 hover:bg-opacity-20 cursor-pointer transition font-medium text-sm sm:text-base">UCL</label>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teams -->
+      <section>
+        <h2 class="text-base sm:text-lg font-semibold mb-3">Select Teams</h2>
+        <div id="teamDropdown" class="bg-white bg-opacity-10 rounded-lg p-3 sm:p-4 text-sm text-gray-200 max-h-56 overflow-y-auto leading-relaxed">
+          <p class="text-gray-400 italic">Choose a competition above to load teams.</p>
+        </div>
+      </section>
+
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button
+          type="submit"
+          class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-semibold shadow-lg transition transform hover:scale-[1.02] active:scale-95 text-sm sm:text-base">
+          📅 Download iCalendar
+        </button>
+      </div>
+    </form>
+
+    <section id="subscriptionSection" class="hidden text-center mt-10 space-y-4">
+  <h2 class="text-lg sm:text-xl font-semibold text-emerald-400">✅ Calendar Ready!</h2>
+  <p class="text-gray-300 text-sm">
+    You can subscribe or download your fixture calendar:
+  </p>
+
+  <!-- Subscription Link -->
+  <input id="subscriptionLink"
+         type="text"
+         readonly
+         class="w-full bg-gray-100 text-gray-800 px-3 py-2 rounded text-sm sm:text-base"
+         value="">
+
+  <!-- Download + Copy Buttons -->
+  <div class="flex flex-col sm:flex-row gap-3 justify-center mt-4">
+    <a id="downloadLink"
+       href="#"
+       class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-medium text-sm sm:text-base">
+       ⬇️ Download .ics
+    </a>
+    <button type="button"
+            onclick="copySubscriptionLink()"
+            class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium text-sm sm:text-base">
+      📋 Copy Subscribe Link
+    </button>
+  </div>
+
+  <!-- Calendar Integration Buttons -->
+  <div class="mt-6 space-y-3">
+    <p class="text-gray-400 text-xs sm:text-sm">
+      Or subscribe directly using one of these apps:
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-3">
+      <a id="googleCalendarBtn"
+         href="#"
+         target="_blank"
+         class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-medium text-sm sm:text-base">
+         🗓️ Add to Google Calendar
+      </a>
+
+      <a id="appleCalendarBtn"
+         href="#"
+         class="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-medium text-sm sm:text-base">
+         🍎 Add to Apple Calendar
+      </a>
     </div>
 
-    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+    <p class="text-gray-500 text-xs mt-2">
+      • <strong>Google Calendar:</strong> Opens in browser (auto-subscribe).<br>
+      • <strong>Apple Calendar:</strong> Copy the link and open it in Calendar → <em>File → New Calendar Subscription...</em>
+    </p>
+  </div>
+</section>
+
+      <button onclick="resetForm()" class="mt-5 text-xs text-gray-400 hover:text-white underline">
+        ← Back to selection
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-xs text-gray-500 mt-10">
+      Made with ❤️ for football fans worldwide.
+    </footer>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
