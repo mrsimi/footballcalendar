@@ -4,3 +4,5 @@ gunicorn==23.0.0
 icalendar==5.0.13
 beautifulsoup4
 requests
+Flask-Caching==2.3.0
+pytz==2024.1
