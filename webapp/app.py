@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, Response, jsonify
 from flask_caching import Cache
 from utils import get_fixtures, create_fixtures_ics
 import tempfile, hashlib, time, os
+from urllib.parse import quote
 
 app = Flask(__name__)
 
@@ -19,18 +20,20 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/generate", methods=["POST"])
+@app.route('/generate', methods=['POST'])
 def generate_ics():
-    """Generate subscription URL dynamically for selected teams and competitions."""
-    teams = request.form.getlist("team[]")
-    competitions = request.form.getlist("competition")
+    teams = request.form.getlist('team[]')
+    competitions = request.form.getlist('competition')
 
     if not teams or not competitions:
-        return jsonify(error="Missing teams or competitions"), 400
+        return "Missing teams or competitions", 400
 
     base_url = request.host_url.rstrip("/")
-    teams_query = ','.join(teams)
-    competition_query= ','.join(competitions)
+
+    # ✅ Encode each segment so spaces -> %20 etc.
+    teams_query = ','.join(quote(t.strip()) for t in teams)
+    competition_query = ','.join(quote(c.strip()) for c in competitions)
+
     ics_url = f"{base_url}/calendar/{competition_query}/{teams_query}.ics"
 
     return jsonify({"ics_url": ics_url})
